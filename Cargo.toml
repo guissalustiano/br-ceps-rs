@@ -1,7 +1,3 @@
-[package]
-name = "br-ceps"
-version = "0.0.1"
-edition = "2024"
-
-[dependencies]
-phf = "0.11.3"
+[workspace]
+members = ["lib"]
+resolver = "3"
