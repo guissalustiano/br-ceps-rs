@@ -1,5 +1,5 @@
 [package]
-name = "br-ceps-py"
+name = "cep-db-py"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,4 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = "0.24.0"
-br-ceps = {path = "../lib" }
+cep-db = {path = "../lib" }

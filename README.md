@@ -10,23 +10,21 @@ Don't forget to keep the trait update, it's update montly.
 ## Installation
 Add with cargo
 ```bash
-cargo add br-ceps
+cargo add cep-db
 ```
 
 Or add manually `Cargo.toml`:
 ```toml
 [dependencies]
-br-ceps = "0.0.1"
+cep-db = "0.0.1"
 ```
 
 ## Usage
 
 ```rust
-use br_ceps::get;
-
 fn main() {
     // Look up a CEP
-    let result = get("01246904").unwrap();
+    let result = cep_db::get("01246904").unwrap();
     
     // Access the returned data
     println!("CEP: {}", result.cep);
